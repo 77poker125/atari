@@ -21,7 +21,7 @@ ENDPROC
 
 PROC GETWEATHER
 ' PLEASE REPLACE THIS WITH THE LOCATION OF YOUR WEATHER.TXT
-   URL$="N:http://segan-atari.local:8000/weather.txt"
+   URL$="N:http://my-atari.local:8000/weather.txt"
    NOPEN 2,12,0,URL$
    NSTATUS 2
 IF PEEK($02ED)>1
