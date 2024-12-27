@@ -15,3 +15,5 @@ What's in here so far ...
 * Printh.FB and Banner.FB - Prints a range of Hershey fonts on the 1020 in different sizes. There's some extra work required here.
   - I'm using MyDos 4.5. I create subdirectories called JHA and IDX. Put the JHA files into the JHA subdirectory, and create another subdirectory called IDX.
   - The tool Makedex.FB, when run, then creates a string of files in the IDX subdirectory with the disk locations of each glyph in each JHA file.
+ 
+* Suite.ATR - An ATR with the programs set up to run. There are some loose hooks and such because it's all part of a bigger suite where some of the elements involve my personal data and I don't feel like releasing them to the public, but you'll get the sense of things.
